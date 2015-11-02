@@ -1,0 +1,9 @@
+ctrlm:
+    build: ./ctrlm/
+    links:
+        - node
+    volumes:
+        - ./data:/workspace
+node:
+    build: ./node/
+
